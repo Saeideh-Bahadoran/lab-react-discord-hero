@@ -1,0 +1,97 @@
+#root {
+  height: 100vh;
+  /* max-width: 1280px; */
+  /* min-width: 800px; */
+  width: 100vh;
+}
+.App{
+  background-color: #404FED;
+  padding: 24px 24px 0 24px;
+}
+
+.logo {
+  height: 1.6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.menuImage {
+  transform: scale(75%);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: white; 
+  max-width: 300px;
+  
+}
+.paragraph{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.container{
+  position: relative;
+  padding-top: 100px;
+  
+
+}
+
+.downloadBtn{
+  color: #323538;
+  background-color: white;
+  border-radius: 25px;
+  
+}
+.openDisord{
+  color: white;
+  background-color: #23272A;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+.BackgroundImage{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom:;
+  right: 0;
+  
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
