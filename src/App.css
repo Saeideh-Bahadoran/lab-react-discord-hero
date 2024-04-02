@@ -1,12 +1,13 @@
 #root {
-  height: 100vh;
+  /* height: 100vh; */
   /* max-width: 1280px; */
   /* min-width: 800px; */
-  width: 100vh;
+  width: 100%;
 }
 .App{
   background-color: #404FED;
   padding: 24px 24px 0 24px;
+  position: relative;
 }
 
 .logo {
@@ -39,6 +40,7 @@ h1{
 .paragraph{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: white;
 }
 .text{
   font-family: 'Roboto', sans-serif;
@@ -46,8 +48,7 @@ h1{
   color: white;
 }
 .container{
-  position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   
 
 }
@@ -63,13 +64,16 @@ h1{
   background-color: #23272A;
   border-radius: 25px;
   margin-bottom: 100px;
+  padding: 15px;
 }
 .BackgroundImage{
-  width: 150px;
-  height: 150px;
   position: absolute;
-  bottom:;
+  bottom:0;
   right: 0;
+}
+
+.BackgroundImage > img {
+  width: 500px;
   
 }
 
